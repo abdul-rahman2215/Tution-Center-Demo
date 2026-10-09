@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Tuition Center — Learn Better. Achieve More.</title>
+  <meta name="description" content="Quality classroom and online tuition for Classes 1 to 12 (CBSE & State Board) in Coimbatore, Tamil Nadu. Building strong foundations and bright futures.">
+
+  <!-- Google Fonts: Poppins & Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ==========================================================================
+       SECTION 1 — NAVIGATION BAR
+       ========================================================================== -->
+  <header class="navbar">
+    <div class="container">
+      <!-- Logo & Graduation Cap Icon -->
+      <a href="index.html" class="logo" aria-label="My Tuition Center Home">
+        <div class="logo-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
+            <path d="M6 12v5c3 3 9 3 12 0v-5"/>
+          </svg>
+        </div>
+        <span>MY TUITION CENTER</span>
+      </a>
+
+      <!-- Navigation Links -->
+      <nav aria-label="Main Navigation">
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="index.html" class="nav-link active">Home</a></li>
+          <li><a href="about.html" class="nav-link">About Us</a></li>
+          <li><a href="courses.html" class="nav-link">Courses</a></li>
+          <li><a href="index.html#contact" class="nav-link">Contact</a></li>
+          <li class="mobile-enquire-btn">
+            <a href="index.html#contact" class="btn btn-primary btn-sm">Enquire Now</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Desktop Enquire Button & Mobile Menu Toggle -->
+      <div class="nav-actions">
+        <a href="index.html#contact" class="btn btn-primary btn-sm">Enquire Now</a>
+        <button class="mobile-toggle" id="mobile-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle navigation menu">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==========================================================================
+       SECTION 2 — HERO SECTION
+       ========================================================================== -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-grid">
+        <!-- Left Column: Text & CTAs -->
+        <div class="hero-content">
+          <div class="hero-badge">ADMISSIONS OPEN</div>
+          <h1 class="hero-title">
+            Build Strong Foundations. <br><span class="text-accent">Achieve Brighter Futures.</span>
+          </h1>
+          <p class="hero-description">
+            At My Tuition Center, we help students understand concepts clearly, strengthen academic fundamentals, and prepare confidently for school examinations through structured learning and regular practice.
+          </p>
+          <div class="hero-buttons">
+            <a href="courses.html" class="btn btn-primary">Explore Our Courses</a>
+            <a href="#contact" class="btn btn-secondary">Contact Us</a>
+          </div>
+          <div class="hero-trust">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#356AE6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+              <polyline points="22 4 12 14.01 9 11.01"></polyline>
+            </svg>
+            <span>Concept-Based Learning • Regular Practice • Personal Attention</span>
+          </div>
+        </div>
+
+        <!-- Right Column: Educational Photograph & Floating Cards -->
+        <div class="hero-media-wrapper">
+          <div class="hero-image-container">
+            <img src="https://images.unsplash.com/photo-1577896851231-70ef18881754?auto=format&fit=crop&w=800&q=80"
+                 onerror="this.src='assets/images/hero-students.svg'"
+                 alt="Students studying comfortably with a dedicated teacher in a bright tuition classroom"
+                 class="hero-image">
+          </div>
+          <!-- Floating Card 1 -->
+          <div class="floating-card floating-card-1">
+            <div class="floating-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                <circle cx="12" cy="7" r="4"></circle>
+              </svg>
+            </div>
+            <div class="floating-text">Personal Attention</div>
+          </div>
+          <!-- Floating Card 2 -->
+          <div class="floating-card floating-card-2">
+            <div class="floating-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 16 14"></polyline>
+              </svg>
+            </div>
+            <div class="floating-text">Learn at Your Pace</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       SECTION 3 — QUICK INFORMATION CARDS
+       ========================================================================== -->
+  <section class="quick-info">
+    <div class="container">
+      <div class="quick-info-grid">
+        <!-- Card 1 -->
+        <div class="info-card">
+          <div class="info-icon-box">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+              <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+            </svg>
+          </div>
+          <div>
+            <h3>Classes 1–12</h3>
+            <p>Academic support across school levels.</p>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="info-card">
+          <div class="info-icon-box">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+              <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+            </svg>
+          </div>
+          <div>
+            <h3>CBSE &amp; State Board</h3>
+            <p>Learning aligned with school curricula.</p>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="info-card">
+          <div class="info-icon-box">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+              <line x1="8" y1="21" x2="16" y2="21"></line>
+              <line x1="12" y1="17" x2="12" y2="21"></line>
+            </svg>
+          </div>
+          <div>
+            <h3>Flexible Learning</h3>
+            <p>Classroom and online learning options.</p>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="info-card">
+          <div class="info-icon-box">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+              <circle cx="9" cy="7" r="4"></circle>
+              <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+              <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+            </svg>
+          </div>
+          <div>
+            <h3>Student-Focused</h3>
+            <p>Teaching that considers individual learning needs.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       SECTION 4 — INTRODUCTION
+       ========================================================================== -->
+  <section class="intro-section">
+    <div class="container">
+      <div class="intro-grid">
+        <!-- Left: Image -->
+        <div class="intro-media">
+          <img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&w=800&q=80"
+               onerror="this.src='assets/images/intro-learning.svg'"
+               alt="Interactive teaching session focusing on clear concept explanations"
+               class="intro-image">
+        </div>
+
+        <!-- Right: Text Content -->
+        <div class="intro-content">
+          <span class="section-tag">OUR APPROACH</span>
+          <h2>A Better Way to Learn</h2>
+          <p class="intro-lead">
+            Every student learns differently. Our approach focuses on clear explanations, guided practice, regular revision, and a supportive learning environment.
+          </p>
+
+          <ul class="benefits-list">
+            <li class="benefit-item">
+              <div class="benefit-icon">✓</div>
+              <span>Clear Concept Explanations</span>
+            </li>
+            <li class="benefit-item">
+              <div class="benefit-icon">✓</div>
+              <span>Regular Practice and Revision</span>
+            </li>
+            <li class="benefit-item">
+              <div class="benefit-icon">✓</div>
+              <span>Dedicated Doubt-Clearing Support</span>
+            </li>
+          </ul>
+
+          <a href="about.html" class="btn btn-outline">Learn About Us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       SECTION 5 — POPULAR COURSES
+       ========================================================================== -->
+  <section class="courses-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">STRUCTURED PROGRAMMES</span>
+        <h2>Learning Programmes for Every Stage</h2>
+        <p>Explore learning support designed for different school levels.</p>
+      </div>
+
+      <div class="courses-grid">
+        <!-- CARD 1 -->
+        <div class="course-card">
+          <div>
+            <div class="course-badge">Classes 1–5</div>
+            <h3>Foundation Classes</h3>
+            <p class="course-desc">Build strong foundations in essential subjects through simple explanations, practice, and guided learning.</p>
+            <div class="course-subjects">
+              <div class="course-subjects-title">Core Subjects Covered</div>
+              <div class="subject-tags">
+                <span class="subject-tag">Mathematics</span>
+                <span class="subject-tag">English</span>
+                <span class="subject-tag">Environmental Studies</span>
+              </div>
+            </div>
+          </div>
+          <a href="courses.html" class="btn btn-outline btn-block">View Course</a>
+        </div>
+
+        <!-- CARD 2 -->
+        <div class="course-card">
+          <div>
+            <div class="course-badge">Classes 6–8</div>
+            <h3>Middle School Tuition</h3>
+            <p class="course-desc">Strengthen subject understanding and develop consistent study habits through structured lessons.</p>
+            <div class="course-subjects">
+              <div class="course-subjects-title">Core Subjects Covered</div>
+              <div class="subject-tags">
+                <span class="subject-tag">Mathematics</span>
+                <span class="subject-tag">Science</span>
+                <span class="subject-tag">English</span>
+              </div>
+            </div>
+          </div>
+          <a href="courses.html" class="btn btn-outline btn-block">View Course</a>
+        </div>
+
+        <!-- CARD 3 -->
+        <div class="course-card">
+          <div>
+            <div class="course-badge">Classes 9–12</div>
+            <h3>Board Exam Preparation</h3>
+            <p class="course-desc">Prepare through syllabus-based learning, revision sessions, practice questions, and examination techniques.</p>
+            <div class="course-subjects">
+              <div class="course-subjects-title">Core Subjects Covered</div>
+              <div class="subject-tags">
+                <span class="subject-tag">Mathematics</span>
+                <span class="subject-tag">Science</span>
+                <span class="subject-tag">English</span>
+                <span class="subject-tag">Social Studies</span>
+              </div>
+            </div>
+          </div>
+          <a href="courses.html" class="btn btn-outline btn-block">View Course</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       SECTION 6 — WHY CHOOSE US
+       ========================================================================== -->
+  <section class="features-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">WHY MY TUITION CENTER</span>
+        <h2>Learning That Goes Beyond Textbooks</h2>
+        <p>A balanced learning experience designed to help every student succeed with confidence.</p>
+      </div>
+
+      <div class="features-grid">
+        <!-- Feature 1 -->
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 1 1 7.072 0l-.548.547A3.374 3.374 0 0 0 14 18.469V19a2 2 0 1 1-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
+            </svg>
+          </div>
+          <h3>Concept-Based Teaching</h3>
+          <p>Understand the reasoning behind every concept instead of relying only on memorisation.</p>
+        </div>
+
+        <!-- Feature 2 -->
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"/>
+            </svg>
+          </div>
+          <h3>Personal Attention</h3>
+          <p>Encourage questions and help students work through difficult topics.</p>
+        </div>
+
+        <!-- Feature 3 -->
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 11l3 3L22 4"></path>
+              <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path>
+            </svg>
+          </div>
+          <h3>Regular Assessments</h3>
+          <p>Use practice activities and assessments to identify learning gaps.</p>
+        </div>
+
+        <!-- Feature 4 -->
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10"></circle>
+              <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+              <line x1="12" y1="17" x2="12.01" y2="17"></line>
+            </svg>
+          </div>
+          <h3>Doubt-Clearing Sessions</h3>
+          <p>Give students opportunities to ask questions and strengthen their understanding.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       SECTION 7 — THREE-STEP LEARNING PROCESS
+       ========================================================================== -->
+  <section class="process-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">HOW IT WORKS</span>
+        <h2>Your Learning Journey</h2>
+        <p>A simple three-step method to support continuous learning progress.</p>
+      </div>
+
+      <div class="process-grid">
+        <!-- STEP 1 -->
+        <div class="process-step">
+          <div class="step-number">1</div>
+          <h3>Understand</h3>
+          <p>We identify the student's class level, learning needs, and areas requiring additional practice.</p>
+        </div>
+
+        <!-- STEP 2 -->
+        <div class="process-step">
+          <div class="step-number">2</div>
+          <h3>Learn</h3>
+          <p>Students work through concepts with guided explanations, examples, and practice.</p>
+        </div>
+
+        <!-- STEP 3 -->
+        <div class="process-step">
+          <div class="step-number">3</div>
+          <h3>Improve</h3>
+          <p>Revision and assessments help students monitor their learning progress.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       SECTION 8 — TESTIMONIAL PREVIEW
+       ========================================================================== -->
+  <section class="testimonials-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">STUDENT &amp; PARENT FEEDBACK</span>
+        <h2>What a Supportive Learning Environment Looks Like</h2>
+        <p>Sample experiences illustrating our supportive classroom environment.</p>
+      </div>
+
+      <div class="testimonials-grid">
+        <!-- TESTIMONIAL 1 -->
+        <div class="testimonial-card">
+          <span class="sample-tag">SAMPLE TESTIMONIAL</span>
+          <p class="testimonial-text">
+            "The clear concept explanations and friendly teachers helped build solid understanding in Mathematics and Science."
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar">P1</div>
+            <div class="author-info">
+              <h4>Class 8 Parent</h4>
+              <p>CBSE Stream • Coimbatore</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- TESTIMONIAL 2 -->
+        <div class="testimonial-card">
+          <span class="sample-tag">SAMPLE TESTIMONIAL</span>
+          <p class="testimonial-text">
+            "Regular practice tests and doubt-clearing sessions made exam preparation structured and stress-free."
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar">S2</div>
+            <div class="author-info">
+              <h4>Class 10 Student</h4>
+              <p>State Board • Coimbatore</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- TESTIMONIAL 3 -->
+        <div class="testimonial-card">
+          <span class="sample-tag">SAMPLE TESTIMONIAL</span>
+          <p class="testimonial-text">
+            "Online tuition sessions are well-organised, interactive, and give individual attention to every query."
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar">P3</div>
+            <div class="author-info">
+              <h4>Class 5 Parent</h4>
+              <p>Online Mode • Tamil Nadu</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       SECTION 9 — CONTACT AND ADMISSION ENQUIRY
+       ========================================================================== -->
+  <section class="contact-section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">GET IN TOUCH</span>
+        <h2>Give Your Child the Right Learning Support</h2>
+        <p>Interested in learning more about our programmes? Complete the sample enquiry form to explore the admission process.</p>
+      </div>
+
+      <div class="contact-card-wrapper">
+        <form class="enquiry-form" id="enquiry-form" novalidate>
+          <div class="form-grid">
+            <!-- Student Name -->
+            <div class="form-group">
+              <label for="student-name">Student Name <span class="required">*</span></label>
+              <input type="text" id="student-name" class="form-control" placeholder="Enter student full name" required>
+              <div class="error-message" id="student-name-error"></div>
+            </div>
+
+            <!-- Parent or Guardian Name -->
+            <div class="form-group">
+              <label for="parent-name">Parent / Guardian Name <span class="required">*</span></label>
+              <input type="text" id="parent-name" class="form-control" placeholder="Enter parent full name" required>
+              <div class="error-message" id="parent-name-error"></div>
+            </div>
+
+            <!-- Phone Number -->
+            <div class="form-group">
+              <label for="phone-number">Phone Number <span class="required">*</span></label>
+              <input type="tel" id="phone-number" class="form-control" placeholder="10-digit Indian mobile number" required>
+              <div class="error-message" id="phone-number-error"></div>
+            </div>
+
+            <!-- Student's Class -->
+            <div class="form-group">
+              <label for="student-class">Student's Class <span class="required">*</span></label>
+              <select id="student-class" class="form-control" required>
+                <option value="" disabled selected>Select Class</option>
+                <option value="Class 1">Class 1</option>
+                <option value="Class 2">Class 2</option>
+                <option value="Class 3">Class 3</option>
+                <option value="Class 4">Class 4</option>
+                <option value="Class 5">Class 5</option>
+                <option value="Class 6">Class 6</option>
+                <option value="Class 7">Class 7</option>
+                <option value="Class 8">Class 8</option>
+                <option value="Class 9">Class 9</option>
+                <option value="Class 10">Class 10</option>
+                <option value="Class 11">Class 11</option>
+                <option value="Class 12">Class 12</option>
+              </select>
+              <div class="error-message" id="student-class-error"></div>
+            </div>
+
+            <!-- Preferred Learning Mode -->
+            <div class="form-group full-width">
+              <label for="learning-mode">Preferred Learning Mode <span class="required">*</span></label>
+              <select id="learning-mode" class="form-control" required>
+                <option value="" disabled selected>Select Learning Mode</option>
+                <option value="Classroom Tuition">Classroom Tuition</option>
+                <option value="Online Tuition">Online Tuition</option>
+                <option value="Need Guidance">Need Guidance</option>
+              </select>
+              <div class="error-message" id="learning-mode-error"></div>
+            </div>
+
+            <!-- Optional Message -->
+            <div class="form-group full-width">
+              <label for="message">Optional Message</label>
+              <textarea id="message" class="form-control" rows="4" placeholder="Any specific requirements or questions (optional)"></textarea>
+            </div>
+          </div>
+
+          <!-- Submit Button -->
+          <button type="submit" class="btn btn-primary btn-block" style="margin-top: 0.5rem;">Submit Enquiry</button>
+
+          <!-- Dynamic Confirmation Box -->
+          <div class="confirmation-box" id="confirmation-box"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       SECTION 10 — FOOTER
+       ========================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Brand Column -->
+        <div class="footer-brand">
+          <a href="index.html" class="logo">
+            <div class="logo-icon" style="background-color: rgba(255,255,255,0.1); color: var(--accent-orange);">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
+                <path d="M6 12v5c3 3 9 3 12 0v-5"/>
+              </svg>
+            </div>
+            <span>MY TUITION CENTER</span>
+          </a>
+          <div class="tagline">Learn Better. Achieve More.</div>
+          <p>
+            My Tuition Center provides quality classroom and online academic support for school students in Coimbatore, Tamil Nadu.
+          </p>
+        </div>
+
+        <!-- Quick Links -->
+        <div>
+          <h3 class="footer-heading">Quick Links</h3>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="index.html#contact">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <!-- Programmes -->
+        <div>
+          <h3 class="footer-heading">Programmes</h3>
+          <ul class="footer-links">
+            <li><a href="courses.html">Foundation (1–5)</a></li>
+            <li><a href="courses.html">Middle School (6–8)</a></li>
+            <li><a href="courses.html">Board Exam Prep (9–12)</a></li>
+            <li><a href="courses.html">Online Learning</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact Info -->
+        <div>
+          <h3 class="footer-heading">Location &amp; Contact</h3>
+          <ul class="footer-contact-info">
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+              </svg>
+              <span>Coimbatore, Tamil Nadu</span>
+            </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
+              </svg>
+              <span>+91 98765 43210 (Placeholder)</span>
+            </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+              </svg>
+              <span>info@mytuitioncenter.sample</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; <span id="current-year">2026</span> My Tuition Center. Sample Website.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Shared JavaScript -->
+  <script src="js/script.js"></script>
+</body>
+</html>
